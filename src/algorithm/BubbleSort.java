@@ -26,6 +26,7 @@ public class BubbleSort {
 //
 //	구조
 //	버블 정렬은 정렬 알고리즘 중에서 구현은 가장 쉽지만 가장 비효율적인 알고리즘
+//
 	public static void main(String[] args) {
         int array[] = {2, 1, 10, 6, 5, 3, 7, 9, 4, 8};
 
