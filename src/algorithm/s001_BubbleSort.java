@@ -13,7 +13,6 @@ public class s001_BubbleSort {
                 }
             }
         }
-
         // 정렬된 배열 출력
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
