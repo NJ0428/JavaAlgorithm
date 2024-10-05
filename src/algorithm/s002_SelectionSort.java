@@ -1,5 +1,4 @@
 package algorithm;
-
 // 선택 정렬
 public class s002_SelectionSort {
 	public static void main(String[] args) {
