@@ -7,7 +7,6 @@ public class s003_InsertSort {
         for (int i = 1; i < array.length; i++) {
             int key = array[i];
             int j = i - 1;
-
             // 현재 요소를 정렬된 부분의 적절한 위치에 삽입
             while (j >= 0 && array[j] > key) {
                 array[j + 1] = array[j]; // 요소를 오른쪽으로 이동
