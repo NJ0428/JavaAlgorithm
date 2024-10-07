@@ -13,7 +13,6 @@ public class s004_QuickSort {
         System.out.println("정렬된 배열:");
         printArray(array);
     }
-
     // 퀵정렬 메서드
     public static void quickSort(int[] array, int low, int high) {
         if (low >= high)
