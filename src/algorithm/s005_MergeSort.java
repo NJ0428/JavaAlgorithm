@@ -19,23 +19,19 @@ public class s005_MergeSort {
             }
             k++;
         }
-
         while (n <= middle) {
             sorted[k] = array[n];
             n++;
             k++;
         }
-
         while (m <= right) {
             sorted[k] = array[m];
             m++;
             k++;
         }
-
         for (int t = left; t <= right; t++) {
             array[t] = sorted[t];
         }
-
     }
 
     // 1개까지 나누기
