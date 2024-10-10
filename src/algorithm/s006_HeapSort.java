@@ -10,7 +10,6 @@ public class s006_HeapSort {
         if (left < n && array[left] > array[largest]) {
             largest = left;
         }
-
         // 오른쪽이 크면 자신의 노드와 바꾼다.
         if (right < n && array[right] > array[largest]) {
             largest = right;
@@ -24,12 +23,10 @@ public class s006_HeapSort {
             // 교체 후 다시 힙정렬
             heapify(array, n, largest);
         }
-
     }
 
     public static void heapSort(int[] array) {
         int n = array.length;
-
         for (int i = n / 2 - 1; i >= 0; i--) {
             heapify(array, n, i);
         }
