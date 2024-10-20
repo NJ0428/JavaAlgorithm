@@ -6,7 +6,6 @@ package algorithm;
 //시간 복잡도는 최악의 경우 O(N^2)이며, 안정 정렬(stable sort)이다. 
 //데이터의 개수가 적은 경우나 이미 정렬되어 있는 경우에는 비교적 빠른 속도로 정렬이 가능하지만, 
 //데이터의 개수가 많아질수록 다른 정렬 알고리즘에 비해 속도가 느려진다.
-
 public class BubbleSort {
 	public static void main(String[] args) {
         int array[] = {2, 1, 10, 6, 5, 3, 7, 9, 4, 8};
